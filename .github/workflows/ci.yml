@@ -16,6 +16,9 @@ jobs:
           - 3.13
         optional:
           - false
+        include:
+          - python-version: '3.11'
+            optional: true
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v6
