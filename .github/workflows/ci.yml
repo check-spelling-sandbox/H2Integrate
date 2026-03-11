@@ -12,8 +12,11 @@ jobs:
         os:
         - ubuntu-latest
         - windows-latest
-        python-version: ['3.11', '3.13']
-        optional: [false]
+        python-version:
+        - 3.11
+        - 3.13
+        optional:
+        - 'false'
         include:
           - python-version: '3.11'
             optional: true
