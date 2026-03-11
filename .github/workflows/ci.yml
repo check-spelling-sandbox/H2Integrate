@@ -14,6 +14,8 @@ jobs:
         - windows-latest
         python-version:
           - 3.13
+        optional:
+          - false
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v6
